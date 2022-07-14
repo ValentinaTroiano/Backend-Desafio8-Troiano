@@ -1,8 +1,8 @@
 {
-  "name": "sqlite",
+  "name": "mariadb",
   "version": "1.0.0",
   "description": "",
-  "main": "create-tables.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.95.15",
-    "sqlite3": "^5.0.2"
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1"
   }
 }
